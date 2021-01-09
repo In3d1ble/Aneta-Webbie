@@ -1,0 +1,98 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flax;
+    font-family: 'Alegreya Sans', sans-serif;
+    }
+
+
+
+/* FONTS: 
+Green: #54be90
+White: #ffffff
+Light grey: #ebebeb
+Text grey: #444444
+Dark grey: #232323 */
+
+.navigation {
+    display: flex;
+    background-color: #232323;
+    height: 100%;
+}
+
+.section1 img {
+    size: 5%;
+}
+
+.section_2 .circles {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    flex: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    background-color: rgb(78, 16, 16);
+
+}
+
+
+.stages_smry{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: #232323;
+    padding: 100px;
+    padding-top: 40px;
+}
+
+.stages_smry h4 {
+    color: #54be90;
+    display: flex;
+    width: 17%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: x-large;
+}
+
+
+.stages_smry p {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: px;
+    font-size: small;
+    color: white;
+}
+
+.stages_smry .circle--2 {
+    display: flex;
+    width: 17%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+
+
+
+  
+
+
