@@ -12,6 +12,8 @@ html {
 body {
     display: flax;
     font-family: 'Alegreya Sans', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
     }
 
 
@@ -22,56 +24,82 @@ White: #ffffff
 Light grey: #ebebeb
 Text grey: #444444
 Dark grey: #232323 */
+.navigation img {
+    height: 40px;
+    object-position: left;
+    background-color: white;
+}
 
 .navigation {
     display: flex;
-    background-color: #232323;
-    height: 100%;
-}
-
-.section1 img {
-    size: 5%;
-}
-
-.section_2 .circles {
-    display: flex;
     flex-direction: row;   
     justify-content: space-evenly; 
     flex-wrap: wrap;
-    flex: 1;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 20px;
-    background-color: rgb(78, 16, 16);
-
+ 
+    align-items: center;
+    background-color: #232323;
+    height: 40px;
 }
+
+.intro {
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/web-design-2906159_1920.jpg) center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding-bottom: 40%;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: white;
+}
+
+
 
 
 .stages_smry{
-    height: 15vh;
+    height: 20vh;
     display: flex;
-    flex-direction: row;   
+    flex-direction: column;   
     justify-content: space-evenly; 
     flex-wrap: wrap;
     flex: 1;
     background-color: #232323;
-    padding: 100px;
-    padding-top: 40px;
+    padding: 10px;
+    padding-top: 10px;
+    
 }
 
-.stages_smry h4 {
+.stage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-evenly;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    font-size: smaller;
+}
+
+.stage h4 {
     color: #54be90;
     display: flex;
     width: 17%;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 15px;
     font-size: x-large;
 }
 
 
-.stages_smry p {
+.stage p {
     display: flex;
     width: 20%;
     justify-content: center;
@@ -81,14 +109,6 @@ Dark grey: #232323 */
     color: white;
 }
 
-.stages_smry .circle--2 {
-    display: flex;
-    width: 17%;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    
-}
 
 
 
